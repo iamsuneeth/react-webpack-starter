@@ -36,21 +36,6 @@
     "prettier": "^1.11.1",
     "webpack": "^4.1.1"
   },
-  "babel": {
-    "presets": [
-      [
-        "env",
-        {
-          "targets": {
-            "browsers": [
-              "since 2015"
-            ]
-          }
-        }
-      ],
-      "react"
-    ]
-  },
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
