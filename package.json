@@ -1,0 +1,57 @@
+{
+  "name": "custom-components",
+  "version": "1.0.0",
+  "description": "a small component library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsuneeth/custom-components.git"
+  },
+  "keywords": [
+    "components",
+    "react",
+    "storybook"
+  ],
+  "author": "suneeth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamsuneeth/custom-components/issues"
+  },
+  "homepage": "https://github.com/iamsuneeth/custom-components#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^22.4.2",
+    "prettier": "^1.11.1",
+    "webpack": "^4.1.1",
+    "postcss-loader": "^2.1.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": [
+              "since 2015"
+            ]
+          }
+        }
+      ],
+      "react"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
