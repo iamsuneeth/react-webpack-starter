@@ -1,14 +1,14 @@
 {
-  "name": "custom-components",
+  "name": "",
   "version": "1.0.0",
-  "description": "a small component library",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamsuneeth/custom-components.git"
+    "url": ""
   },
   "keywords": [
     "components",
@@ -16,11 +16,11 @@
     "storybook"
   ],
   "author": "suneeth",
-  "license": "MIT",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/iamsuneeth/custom-components/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/iamsuneeth/custom-components#readme",
+  "homepage": "",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
