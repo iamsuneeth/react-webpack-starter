@@ -2,10 +2,10 @@
 A basic webpack based setup for a react project. Using atomic design folder structure.
 
 ## Setup
----
+
 1. Clone this project
 
-    `$ git clone -b master https://github.com/iamsuneeth/react-webpack-starter react-app`
+    `$ git clone -b master https://github.com/iamsuneeth/react-webpack-starter react-app`  
     `$ cd react-app`
 
 2. Install dependencies
@@ -18,6 +18,6 @@ A basic webpack based setup for a react project. Using atomic design folder stru
 
 
 ## TODO
----
+
 - webpack dev server
 - nextjs integration
