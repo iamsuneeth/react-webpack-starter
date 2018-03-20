@@ -1,5 +1,5 @@
 # react-webpack-starter
-A basic webpack based setup for a react project. Using atomic design folder structure.
+A basic webpack based setup for a react project using nextjs. Using atomic design folder structure.
 
 ## Setup
 
@@ -19,5 +19,3 @@ A basic webpack based setup for a react project. Using atomic design folder stru
 
 ## TODO
 
-- webpack dev server
-- nextjs integration
