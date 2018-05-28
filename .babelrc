@@ -1,15 +1,15 @@
 {
-    "presets": [["next/babel",{
-        "styled-jsx": { "optimizeForSpeed": true }
-    }]],
-    "plugins": [
-      "transform-decorators-legacy",
-      [
-        "import",
-        {
-          "libraryName": "antd",
-          "style": false
-        }
-      ]
-    ]
-  }
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions", "safari >= 7"]
+      }
+    }],
+    "react"
+  ],
+  "plugins": [
+    ["transform-object-rest-spread", {
+      "useBuiltIns": true
+    }], "transform-class-properties"
+  ]
+}

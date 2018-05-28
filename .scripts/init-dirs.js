@@ -12,6 +12,12 @@ const createDirs = async () => {
     mkdir('organisms');
     mkdir('templates');
     mkdir('pages');
+    process.chdir('..');
+    mkdir('actions');
+    mkdir('containers');
+    mkdir('reducers');
+    mkdir('utils');
+    fs.createReadStream('../.scripts/index.js').pipe(fs.createWriteStream('pages/index.js'));
 }
 
 

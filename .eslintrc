@@ -1,6 +1,6 @@
 {
   "extends": [
-    "eslint:recommended",
+    "airbnb",
     "prettier",
     "prettier/react"
   ],
@@ -23,10 +23,19 @@
   },
   "rules": {
     "prettier/prettier": "error",
-    "react/jsx-uses-vars": "error"
+    "react/jsx-uses-vars": "error",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   },
   "globals":{
     "module":true,
-    "require":true
+    "require":true,
+    "React":true,
+    "describe":true,
+    "test":true,
+    "jest":true,
+    "expect":true,
+    "beforeAll": true,
+    "beforeEach": true,
+    "afterEach": true
   }
 }
